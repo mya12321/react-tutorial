@@ -11,7 +11,7 @@ Follow react official website tutorial for practice
 
 ## Usage
 `$ npm run serve`
-Then visit [localhost:3000](localhost:3000)
+Then visit [localhost:3000](http://localhost:3000)
 
 ## License
 [MIT](./LICENSE)
