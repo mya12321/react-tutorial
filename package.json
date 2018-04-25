@@ -68,6 +68,12 @@
       "xo-react/space",
       "xo-space/esnext"
     ],
-    "parser": "babel-eslint"
+    "parser": "babel-eslint",
+    "rules": {
+      "comma-dangle": 0,
+      "react/jsx-closing-bracket-location": 0,
+      "react/jsx-no-bind": 0,
+      "react/prop-types": 0
+    }
   }
 }
