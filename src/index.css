@@ -49,3 +49,15 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+button {
+  width: 140px;
+}
+
+.highlight {
+  background: #aaa;
+}
