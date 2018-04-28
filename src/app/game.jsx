@@ -64,7 +64,7 @@ export default class Game extends React.Component {
 
     let status;
     if (winnerList.length) {
-      status = 'Winner: ' + winnerList[0];
+      status = 'Winner: ' + current.squares[winnerList[0]];
     } else if (this.state.stepNumber === 9) {
       status = 'No one wins';
     } else {
@@ -83,7 +83,7 @@ export default class Game extends React.Component {
         <div className="game-info">
           <div>{status}</div>
           <button onClick={() => this.handleSort()}>{isAscending ? 'descending order' : 'ascending order'}</button>
-          <ol>{moves}</ol>
+          <ul>{moves}</ul>
         </div>
       </div>
     );
