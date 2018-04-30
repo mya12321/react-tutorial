@@ -5,7 +5,7 @@ Follow react official [tutorial](https://reactjs.org/tutorial/tutorial.html) for
 This project is created by [Yeoman](http://yeoman.io/).
 
 ## Preview
-[Click Here](https://mya12321.github.io/react-tutorial)
+[Click Here](https://mya12321.github.io/react-tutorial/dist)
 
 ## Install
 `$ npm install`
