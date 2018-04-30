@@ -9,13 +9,13 @@ module.exports = {
         ]
       },
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'eslint-loader',
         enforce: 'pre'
       },
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         loaders: [
           'babel-loader'
@@ -33,5 +33,8 @@ module.exports = {
   externals: {
     'react/lib/ExecutionEnvironment': 'true',
     'react/lib/ReactContext': 'true'
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
   }
 };

@@ -18,7 +18,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'eslint-loader',
         enforce: 'pre'
@@ -31,7 +31,7 @@ module.exports = {
         })
       },
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         loaders: [
           'babel-loader'
@@ -68,5 +68,8 @@ module.exports = {
   entry: {
     app: `./${conf.path.src('index')}`,
     vendor: Object.keys(pkg.dependencies)
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
   }
 };
