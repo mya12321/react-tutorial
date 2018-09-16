@@ -1,12 +1,10 @@
 body {
-  background-color: lightgrey;
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 }
 
 ol, ul {
-  padding-left: 0;
-  list-style-type: none;
+  padding-left: 30px;
 }
 
 .board-row:after {
@@ -51,14 +49,3 @@ ol, ul {
   margin-left: 20px;
 }
 
-.bold {
-  font-weight: bold;
-}
-
-button {
-  width: 140px;
-}
-
-.highlight {
-  background: #aaa;
-}
