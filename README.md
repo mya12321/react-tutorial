@@ -11,7 +11,7 @@ This project is created by [Yeoman](http://yeoman.io/).
 `$ npm install`
 
 ## Usage
-`$ npm run serve`  
+`$ npm start`  
 Then visit [localhost:3000](http://localhost:3000)
 
 ## License
