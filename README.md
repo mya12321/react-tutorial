@@ -2,10 +2,9 @@
 
 
 Follow react official [tutorial](https://reactjs.org/tutorial/tutorial.html) for practice.  
-This project is created by [Yeoman](http://yeoman.io/).
 
 ## Preview
-[Click Here](https://mya12321.github.io/react-tutorial/dist)
+[Click Here](https://mya12321.github.io/react-tutorial/)
 
 ## Install
 `$ npm install`
